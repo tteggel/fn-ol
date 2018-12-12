@@ -1,0 +1,6 @@
+schema_version: 20180708
+name: fn-ol
+version: 0.1.1
+runtime: docker
+cmd: com.example.fn.HelloFunction::handleRequest
+format: http-stream
